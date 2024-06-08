@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="page">
+    <!-- heading box -->
+        <div class="box1">
+            <div class="heading"> ROCK <BR> PAPER <BR> SCISSORS</BR></BR> </div>
+
+            <div class="count" id="move"> Computer's move: 
+                <br>
+                 TO BE SELECTED </div>
+            </div>
+            <br>
+            <!-- <div class="score"> <br> SCORE: </div> -->
+        </div>
+    </div>
+    <!-- images -->
+    <br><br>
+    <div class= "icon">
+        
+        <div class="game" id="icon1"> 
+            <img src="images/rock.png" alt="" > 
+        </div> 
+
+        <div class="game" id="icon2"> 
+            <img src="images/paper.png" alt="" >
+         </div>
+
+        <div class="game" id="icon3"> 
+            <img src="images/scissors.png" alt="" >
+        </div>
+
+    </div>
+        <!-- buttons -->
+        <div class="sels">
+            <button id="Rock" class="sel" onclick=""> Rock </button> 
+            <button  id="Paper" class="sel"> Paper </button> 
+            <button  id="Scissors" class="sel"> Scissor </button> 
+        </div>
+
+        <div class="score-board">
+            <div class="score">
+                <p id="user-score">0 </p>
+                <p> Your Score</p>
+            </div>
+            <div class="score"> 
+                <p id="comp-score">0 </p>
+                <p>Computer's score</p>
+            </div>
+        </div>
+        <div class="text-container">
+            <p class="text" id="text">Play your Turn!</p>
+        </div>
+
+        <div class="restart-container">
+            <p class="restart" id="restart">Restart Game</p>
+        </div>
+</body>
+
+<script src="script.js"> 
+const al = window.alert("Game Over!");
+</script>
+</html>
